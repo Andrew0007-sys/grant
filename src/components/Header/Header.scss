@@ -1,0 +1,67 @@
+$textColor: #3d1659;
+$bgColor: #f8fbff;
+
+.Header {
+    padding-top: 140px;
+    .container {
+      .full-height{
+          height: 90vh;
+          margin-top: 10%;
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            .contentLeft {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .title {
+                    text-transform: capitalize;
+                    font-family: "Futura PT Bold";                   
+                }
+                .text {
+                    font-size: 22px;
+                    color: $textColor;
+                    margin-bottom: 50px;
+                }
+                .registrationButton {
+                    display: flex;
+                    margin-top: 15px;
+                    align-items: center;
+                    justify-content: center;
+                    align-self: flex-end;
+                    border: 1px solid $textColor;
+                    width: 150px;
+                    height: 40px;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: #3d1659;
+                    }
+                    &:hover .registrationLink {
+                        color: #f8fbff;
+                    }
+                    .registrationLink {
+                        color: $textColor;
+                        text-decoration: none;
+                        font-family: "Futura PT Bold";
+                        text-transform: uppercase;
+                        outline: none;
+                        cursor: pointer;
+                        font-weight: bolder;
+                    }
+                }
+            }
+            .contentRight {
+                min-height: 200px;
+                background: url("../../assets/images/illustrations/illustration1.svg") center center no-repeat;
+                background-size: 130% 130%;
+            }
+        }
+      }
+    }
+    .partnersTitle {
+        text-align: center;
+        margin: 50px 0 30px 0;
+    }
+}
