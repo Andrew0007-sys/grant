@@ -26,7 +26,7 @@ class Partners extends Component {
      const settings = {
       dots: true,
       infinite: true,
-      speed: 50,
+      speed: 800,
       slidesToShow: 1,
       slidesToScroll: 1,
       appendDots: dots => (

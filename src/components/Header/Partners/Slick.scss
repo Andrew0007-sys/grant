@@ -1,4 +1,10 @@
 .slick-dots li.slick-active {
+                transition: .8s;
                 background-color: #881798;
                 border-radius: 10px;
             }
+@media screen and (max-width: 700px){
+    .slick-dots{
+        display: none;
+    }
+}
