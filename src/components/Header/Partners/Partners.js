@@ -29,11 +29,21 @@ class Partners extends Component {
       speed: 800,
       slidesToShow: 1,
       slidesToScroll: 1,
+       responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+              dots: false,
+              infinite: true,
+              speed: 800,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+          } } ],
+         
       appendDots: dots => (
         <div
           style={{
-            backgroundColor: "light",
-            borderRadius: "10px",    
+            borderRadius: "10px",
           }}
         >
           <ul style={{ margin: "-10px" 
@@ -41,12 +51,11 @@ class Partners extends Component {
         </div>
       ),
       customPaging: i => (
-        <div
+        <div className='changeBack'
           style={{
             width: "20px",
             height: "20px",
-//            marginTop: "20px",
-            color: "black",
+            backgroundColor: "none",
             borderRadius: "10px",
             border: "2px gray solid"
           }}
