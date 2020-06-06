@@ -1,3 +1,4 @@
+
 .SignUp {
     background-color: #3d1659;
     // padding: 100px;
@@ -5,6 +6,10 @@
         min-height: 680px;
         margin-top: 50px;
     }
+    .for-waves{
+        background-color: white;
+    }
+
     .container {
         .d-flex {
             display: flex;
@@ -154,4 +159,5 @@
             }
         }    
     }
+
 }
