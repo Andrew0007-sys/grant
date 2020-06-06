@@ -38,7 +38,7 @@ function Navbar(props) {
                                 activeClass="active"
                                 to="header"
                                 smooth={true}
-                                offset={50}
+                                // offset={50}
                                 duration={500}
                             >{home}</Link></div>
                         <div className="item">
@@ -48,7 +48,7 @@ function Navbar(props) {
                                 to="aboutUs"
                                 duration={500}
                                 smooth={true}
-                                offset={-80}
+                                offset={-40}
 
                             >{aboutUs}</Link></div>
                         <div className="item">

@@ -79,10 +79,6 @@ class App extends Component {
         <Header
           lang={this.state.lang}
         />
-
-        <AboutUs
-          lang={this.state.lang}
-        />
         <FontAwesomeIcon
           className="icon"
           icon={faArrowCircleUp}
@@ -92,6 +88,10 @@ class App extends Component {
             })
           }}
         />
+        <AboutUs
+          lang={this.state.lang}
+        />
+
         <Courses
           lang={this.state.lang}
         />

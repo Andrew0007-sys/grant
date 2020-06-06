@@ -1,15 +1,16 @@
 .Partners {
+    border: 2px dotted blue;
+
     .wrap {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        border: 2px solid red;
 
         .partner {
-            object-fit: contain;
             margin: 5px;
-            width: 250px;
-            height: 150px;
-            border: 1px solid red;
+            width: 220px;
+            height: 100px;
             background: center center no-repeat;
             background-size: contain;
             @media screen and (max-width: 768px) {
@@ -23,7 +24,7 @@
         }
     }
     .slick-dots {
-        bottom: -100px;
+        bottom: -60px;
         li {
             .changeBack {
                 border-radius: 50%;

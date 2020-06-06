@@ -12,7 +12,6 @@ function Header(props) {
     return (
         <header id="header" className="Header">
             <div className="container">
-            <div className='full-height'>
                 <div className="wrapper row ">
                     <div className="contentLeft col-12 col-md-5">
                         <h1 className="title">{title}</h1>
@@ -30,7 +29,6 @@ function Header(props) {
                     <div className="contentRight col-12 col-md-6">
                     </div>
                 </div>
-            </div>
                 <h2 className="partnersTitle">{partnersTitle}</h2>
                 <Partners />
             </div>

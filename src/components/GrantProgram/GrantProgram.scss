@@ -4,12 +4,40 @@ $bgColor: #f8fbff;
     .container {
         .wrapper {
             display: flex;
-            padding: 50px 0;
-            .title {
+            @media screen and (min-width: 768px) {
+                margin-bottom: 100px;
+            }
+            .titleTop {
                 text-align: center;
-                margin: 50px 0;
+                margin: 50px 0 100px 0;
             }
             .contentRight {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+
+                .text {
+                    font-size: 22px;
+                    color: $textColor;
+                    margin-bottom: 20px;
+                }
+            }
+            .contentLeft {
+                background: url("../../assets/images/illustrations/illustration3.svg") left bottom no-repeat;
+                background-size: 100% 100%;
+                min-height: 200px;
+                margin-bottom: 20px;
+            }
+            .titleBottom {
+                text-align: center;
+                @media screen and (min-width: 768px) {
+                    margin-top: 140px;
+                    margin-bottom: 100px;
+                }
+            }
+            .contentRightPartisipation {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -30,6 +58,10 @@ $bgColor: #f8fbff;
                     border-radius: 10px;
                     background-color: transparent;
                     margin-top: 40px;
+                    @media screen and (min-width: 768px) {
+                        margin-top: 100px;
+                    }
+
                     &:hover {
                         background-color: #3d1659;
                     }
@@ -47,8 +79,8 @@ $bgColor: #f8fbff;
                     }
                 }
             }
-            .contentLeft {
-                background: url("../../assets/images/illustrations/illustration3.svg") left bottom no-repeat;
+            .contentLeftPartisipation {
+                background: url("../../assets/images/illustrations/illustration7.svg") left bottom no-repeat;
                 background-size: 100% 100%;
                 min-height: 200px;
                 margin-bottom: 20px;

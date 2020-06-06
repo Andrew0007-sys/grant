@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProgramPlan.scss';
-import softServe from "../../assets/images/logo/softserve.png";
-import eleks from "../../assets/images/logo/Eleks.png";
+import softServe from "../../assets/images/teachers/Lubomir.jpg";
+import eleks from "../../assets/images/teachers/Natalya.jpg";
 import enLang from '../../assets/language/en.json';
 import uaLang from '../../assets/language/ua.json';
 
@@ -35,12 +35,12 @@ function ProgramPlan(props) {
                     </div>
                     <h2 className="title mt-5">{teachersTitle}</h2>
                     <div className="teachers row">
-                        <div className="teacher col-12 col-lg-6">
+                        <div className="teacher col-12 col-md-6">
                             <div className=""><img src={softServe} alt="" className="teacherImage" /></div>
                             <h3 className="name">{name_1}</h3>
                             <div className="position">{position_1}</div>
                         </div>
-                        <div className="teacher col-12 col-lg-6">
+                        <div className="teacher col-12 col-md-6">
                             <div className=""><img src={eleks} alt="" className="teacherImage" /></div>
                             <h3 className="name">{name_2}</h3>
                             <div className="position">{position_2}</div>

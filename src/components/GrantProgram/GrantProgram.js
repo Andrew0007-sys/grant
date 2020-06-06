@@ -11,16 +11,16 @@ function GrantProgram(props) {
         <section id="grantProgram" className="GrantProgram">
             <div className="container">
                 <div className="wrapper row">
-                    <h2 className="title col-12">{programTitle}</h2>
+                    <h2 className="titleTop col-12">{programTitle}</h2>
                     <div className="contentLeft col-12 col-md-7">
                     </div>
                     <div className="contentRight col-12 col-md-5">
                         <div className="text ">{programText}</div>
                     </div>
-                    <h2 className="title col-12 mt-5">{partisipationTitle}</h2>
-                    <div className="contentLeft col-12 col-md-7">
+                    <h2 className="titleBottom col-12 ">{partisipationTitle}</h2>
+                    <div className="contentLeftPartisipation col-12 col-md-7">
                     </div>
-                    <div className="contentRight col-12 col-md-5">
+                    <div className="contentRightPartisipation col-12 col-md-5">
                         <div className="text ">{partisipationText}</div>
                         <div className="registrationButton ">
                             <Link

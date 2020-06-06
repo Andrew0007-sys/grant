@@ -2,9 +2,8 @@ $textColor: #3d1659;
 $bgColor: #f8fbff;
 
 .Footer {
-    padding: 40px 0;
+    padding-top: 40px;
     .wrapper {
-        // justify-content: space-around;
         align-items: center;
         margin-bottom: 20px;
         .footerLogo {
@@ -30,6 +29,8 @@ $bgColor: #f8fbff;
                 justify-content: center;
                 align-items: center;
                 margin-right: 20px;
+                transition: background-color 0.5s;
+
                 &:hover {
                     background-color: #f8fbff;
                     border: 1px solid #3d1659;
@@ -42,9 +43,11 @@ $bgColor: #f8fbff;
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
                     .socialIcon {
                         width: 25px;
                         height: 25px;
+                        transition: color 0.5s;
                     }
                 }
             }
@@ -56,18 +59,18 @@ $bgColor: #f8fbff;
         margin-bottom: 20px;
     }
     .info {
-        // text-align: end;
         font-size: 18px;
         color: #3d1659;
         margin-bottom: 20px;
     }
-        .violet-back{
+    .bottomBar {
         background-color: #3d1659;
-        margin-top: 20px;
-        padding-top: 15px;
-        text-align: center;
-        padding-bottom: 10px;
-        color: white;
-        font-size: blueviolet;
-            }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #f8fbff;
+        .copyright {
+            margin: 10px;
+        }
+    }
 }

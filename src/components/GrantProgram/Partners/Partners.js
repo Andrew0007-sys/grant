@@ -17,8 +17,6 @@ import softServe from "../../../assets/images/logo/softserve.png";
 import tenantCloud from "../../../assets/images/logo/tenantcloud.png";
 import ukietech from "../../../assets/images/logo/Ukietech.png";
 import webmill from "../../../assets/images/logo/webmill.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 
 function Partners() {
@@ -60,33 +58,21 @@ function Partners() {
 
     const partnersTwo = [
         itRally, lcg, netFully, softJourn, softServe, tenantCloud, ukietech, webmill
-    ];
+    ]
 
     return (
         <div className='Partners'>
             <Slider {...settings}>
                 <div >
                     <div className="wrap">
-                        {partnersOne.map(partner => <img className='partner' src={partner} alt={partner} />)}
+                        {partnersOne.map(partner => <img className='partner' src={partner} />)}
                     </div>
                 </div>
                 <div >
                     <div className="wrap">
-                        {partnersTwo.map(partner => <img className='partner' src={partner} alt={partner} />)}
+                        {partnersTwo.map(partner => <img className='partner' src={partner} />)}
                     </div>
                 </div>
-                {/* <div>
-                    <h1>1</h1>
-                </div>
-                <div>
-                    <h1>2</h1>
-                </div>
-                <div>
-                    <h1>3</h1>
-                </div>
-                <div>
-                    <h1>4</h1>
-                </div> */}
             </Slider>
         </div>
     )

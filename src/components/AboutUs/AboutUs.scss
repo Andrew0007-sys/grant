@@ -1,9 +1,17 @@
 $textColor: #3d1659;
 $bgColor: #f8fbff;
 .AboutUs {
+    @media screen and (min-width: 768px) {
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
     .container {
         .wrapper {
             display: flex;
+            @media screen and (min-width: 768px) {
+                min-height: 600px;
+                margin-top: 50px;
+            }
             .title {
                 text-align: center;
                 margin: 50px 0;

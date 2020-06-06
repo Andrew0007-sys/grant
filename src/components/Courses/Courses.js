@@ -4,13 +4,14 @@ import { faCheck, faHryvnia } from '@fortawesome/free-solid-svg-icons'
 import './Courses.scss';
 import enLang from '../../assets/language/en.json';
 import uaLang from '../../assets/language/ua.json';
+import react from '../../assets/images/courses/react 1.svg';
 
 function Courses(props) {
     let lang = props.lang ? uaLang : enLang;
     const { sectionTitle_1, sectionTitle_2, start, soon, project, mentor, test, button } = lang.courses;
 
     return (
-        <section id="courses" className="Courses">
+        <section id="courses" className="Courses container-fluid">
             <div className="container">
                 <div className="wrapper">
                     <h2 className="sectionTitle">{sectionTitle_1}<br />{sectionTitle_2}</h2>
@@ -172,6 +173,7 @@ function Courses(props) {
                         </div>
                         <div className="item">
                             <div className="title">React</div>
+                            {/* <img className="react" src={react} alt="" /> */}
                             <div className="start">{soon}</div>
                             <div className="text">
                                 <FontAwesomeIcon

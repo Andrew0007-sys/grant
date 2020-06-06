@@ -36,7 +36,7 @@ function HiddenMenu(props) {
                                     activeClass="active"
                                     to="header"
                                     smooth={true}
-                                    offset={50}
+                                    // offset={50}
                                     duration={500}
                                     onClick={props.toggleMenu}
 
@@ -48,7 +48,7 @@ function HiddenMenu(props) {
                                     to="aboutUs"
                                     duration={500}
                                     smooth={true}
-                                    offset={-80}
+                                    // offset={-80}
                                     onClick={props.toggleMenu}
 
                                 >{aboutUs}</Link></div>
@@ -59,7 +59,7 @@ function HiddenMenu(props) {
                                     to="grantProgram"
                                     duration={500}
                                     smooth={true}
-                                    offset={-80}
+                                    // offset={-80}
                                     onClick={props.toggleMenu}
 
                                 >{grantProgram}</Link></div>
@@ -70,7 +70,7 @@ function HiddenMenu(props) {
                                     to="programPlan"
                                     duration={500}
                                     smooth={true}
-                                    offset={-80}
+                                    // offset={-80}
                                     onClick={props.toggleMenu}
 
                                 >{programPlan}</Link></div>
@@ -81,7 +81,7 @@ function HiddenMenu(props) {
                                     to="signUp"
                                     duration={500}
                                     smooth={true}
-                                    offset={-80}
+                                    // offset={-80}
                                     onClick={props.toggleMenu}
 
                                 >{signIn}</Link></div>
@@ -92,7 +92,7 @@ function HiddenMenu(props) {
                                     to="courses"
                                     duration={500}
                                     smooth={true}
-                                    offset={-80}
+                                    // offset={-80}
                                     onClick={props.toggleMenu}
 
                                 >{courses}</Link></div>
