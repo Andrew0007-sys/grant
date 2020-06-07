@@ -8,6 +8,8 @@ import plane from '../../assets/images/plane.svg';
 import facebook from '../../assets/images/facebook.svg';
 import instagram from '../../assets/images/instagram.svg';
 import linkedin from '../../assets/images/linkedin.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 function SignUp(props) {
     let lang = props.lang ? uaLang : enLang;
@@ -25,9 +27,21 @@ function SignUp(props) {
                         </div>
                         <div className="air-icon">
                             <div className="centered-icon">
-                                <div><a href=""><img className="icon-edit" src={facebook} /></a></div>
-                                <div className="mt-4"><a href=""><img className="icon-edit" src={instagram} /></a></div>
-                                <div><a href=""><img className="icon-edit" src={linkedin} /></a></div>
+                                <div><a className="circle" href="https://m.facebook.com/itclusteracademy/"><FontAwesomeIcon
+                                    className="icon-edit"
+                                    icon={faFacebookF}
+
+                                /></a></div>
+                                <div className="mt-4"><a className="circle" href="https://www.instagram.com/itcluster_academy/?igshid=pcmue6cyzyu2"><FontAwesomeIcon
+                                    className="icon-edit"
+                                    icon={faInstagram}
+
+                                /></a></div>
+                                <div><a className="circle" href="https://www.linkedin.com/company/it-cluster-academy"><FontAwesomeIcon
+                                    className="icon-edit"
+                                    icon={faLinkedinIn}
+
+                                /></a></div>
                             </div>
                         </div>    
                     </div>    
