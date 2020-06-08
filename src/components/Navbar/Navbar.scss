@@ -23,11 +23,22 @@
                 display: flex;
                 font-size: 22px;
                 margin-left: 30px;
+                padding: 5px;
+                background-color: #3d1659;
                 .button {
                     cursor: pointer;
+                    background-color: red;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    transition: 1s;
                 }
                 .active {
                     font-family: "Futura PT Bold";
+                    background-color: green;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    transition: 1s;
+                    color: aliceblue;
                 }
             }
         }
