@@ -10,6 +10,8 @@ $bgColor: #f8fbff;
             .titleTop {
                 text-align: center;
                 margin: 50px 0 100px 0;
+                font-family: "Futura PT Bold";
+                font-size: 48px;
             }
             .contentRight {
                 display: flex;
@@ -20,20 +22,26 @@ $bgColor: #f8fbff;
 
                 .text {
                     font-size: 22px;
-                    color: $textColor;
+                    color: #3d1659;
                     margin-bottom: 20px;
                 }
             }
             .contentLeft {
-                background: url("../../assets/images/illustrations/illustration3.svg") left bottom no-repeat;
+                background: url("../../assets/images/illustrations/grantProgram_1.png") left bottom no-repeat;
                 background-size: 100% 100%;
-                min-height: 200px;
                 margin-bottom: 20px;
+                min-height: 200px;
+
+                @media screen and (min-width: 768px) {
+                    min-height: 400px;
+                }
             }
             .titleBottom {
                 text-align: center;
+                font-family: "Futura PT Bold";
+                font-size: 36px;
                 @media screen and (min-width: 768px) {
-                    margin-top: 140px;
+                    margin-top: 180px;
                     margin-bottom: 100px;
                 }
             }
@@ -44,7 +52,7 @@ $bgColor: #f8fbff;
                 align-items: center;
                 .text {
                     font-size: 22px;
-                    color: $textColor;
+                    color: #3d1659;
                     margin-bottom: 20px;
                 }
                 .registrationButton {
@@ -52,7 +60,7 @@ $bgColor: #f8fbff;
                     align-items: center;
                     justify-content: center;
                     align-self: flex-start;
-                    border: 1px solid $textColor;
+                    border: 1px solid #3d1659;
                     width: 150px;
                     height: 40px;
                     border-radius: 10px;
@@ -69,7 +77,7 @@ $bgColor: #f8fbff;
                         color: #f8fbff;
                     }
                     .registrationLink {
-                        color: $textColor;
+                        color: #3d1659;
                         text-decoration: none;
                         font-family: "Futura PT Bold";
                         text-transform: uppercase;
@@ -80,7 +88,7 @@ $bgColor: #f8fbff;
                 }
             }
             .contentLeftPartisipation {
-                background: url("../../assets/images/illustrations/illustration7.svg") left bottom no-repeat;
+                background: url("../../assets/images/illustrations/grantProgram_2.png") left bottom no-repeat;
                 background-size: 100% 100%;
                 min-height: 200px;
                 margin-bottom: 20px;

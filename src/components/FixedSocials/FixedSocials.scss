@@ -1,0 +1,540 @@
+.FixedSocials {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    .iconsClosed {
+        background-color: rgba(204, 78, 128, 1);
+        border: 1px solid rgba(204, 78, 128, 1);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        z-index: 5;
+        &:hover .message {
+            display: none;
+        }
+        .wrap {
+            z-index: 50;
+            background-color: rgba(204, 78, 128, 1);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconWrite {
+                z-index: 50;
+                background-color: rgba(204, 78, 128, 1);
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+        }
+
+        .telegram {
+            position: absolute;
+            bottom: 115%;
+            width: 45px;
+            height: 45px;
+            background-color: #4c8fe6;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            z-index: 1;
+            transition: bottom 2s;
+
+            .telegramLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(26, 15, 126);
+                }
+
+                .telegramIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                    z-index: 1;
+                }
+            }
+        }
+        .viber {
+            position: absolute;
+            bottom: 200%;
+            width: 45px;
+            height: 45px;
+            background-color: #f8fbff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 2s;
+
+            .viberLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #5a2283;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(20, 4, 32);
+                }
+
+                .viberIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .messenger {
+            position: absolute;
+            bottom: 285%;
+            width: 45px;
+            height: 45px;
+            background-color: #007bff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 2s;
+
+            .messengerLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(61, 37, 192);
+                }
+
+                .messengerIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .email {
+            position: absolute;
+            bottom: 370%;
+            width: 45px;
+            height: 45px;
+            background-color: #0fb676;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 2s;
+
+            .emailLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(12, 119, 53);
+                }
+
+                .emailIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .phone {
+            position: absolute;
+            bottom: 455%;
+            width: 45px;
+            height: 45px;
+            background-color: #6b1b4a;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 0.5s;
+            z-index: -5;
+            .phoneLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(228, 27, 94);
+                }
+
+                .phoneIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .telegram,
+        .viber,
+        .messenger,
+        .email,
+        .phone {
+            bottom: 7px;
+            transition: bottom 0.2s;
+        }
+        cursor: pointer;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        @keyframes example {
+            0% {
+                transform: scale(1);
+            }
+            25% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1);
+            }
+            75% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    }
+    .iconsOpened {
+        background-color: #f8fbff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+
+        .wrap {
+            z-index: 50;
+            background-color: #f8fbff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconClose {
+                width: 50%;
+                height: 50%;
+                color: rgba(204, 78, 128, 1);
+                z-index: 5;
+            }
+        }
+        .telegram {
+            position: absolute;
+            bottom: 115%;
+            width: 45px;
+            height: 45px;
+            background-color: #4c8fe6;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 0.5s;
+            &:hover {
+                background-color: rgb(26, 15, 126);
+            }
+            &:hover .message {
+                display: block;
+            }
+            .message {
+                display: none;
+                background-color: black;
+                position: absolute;
+                right: 60px;
+                color: #ffffff;
+                padding: 0 5px;
+                border-radius: 4px;
+                &:after {
+                    content: "";
+                    border-width: 8px;
+                    border-color: transparent;
+                    border-style: solid;
+                    border-top-color: black;
+                    border-right-color: black;
+                    position: absolute;
+                    right: -4px;
+                    transform: translateY(25%) rotate(45deg);
+                }
+            }
+            .telegramLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+
+                .telegramIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .viber {
+            position: absolute;
+            bottom: 200%;
+            width: 45px;
+            height: 45px;
+            background-color: #f8fbff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 0.5s;
+            &:hover .message {
+                display: block;
+            }
+            .message {
+                display: none;
+                background-color: black;
+                position: absolute;
+                right: 60px;
+                color: #ffffff;
+                padding: 0 5px;
+                border-radius: 4px;
+                &:after {
+                    content: "";
+                    border-width: 8px;
+                    border-color: transparent;
+                    border-style: solid;
+                    border-top-color: black;
+                    border-right-color: black;
+                    position: absolute;
+                    right: -4px;
+                    transform: translateY(25%) rotate(45deg);
+                }
+            }
+            .viberLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #5a2283;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(20, 4, 32);
+                }
+
+                .viberIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .messenger {
+            position: absolute;
+            bottom: 285%;
+            width: 45px;
+            height: 45px;
+            background-color: #007bff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 0.5s;
+            &:hover .message {
+                display: block;
+            }
+            .message {
+                display: none;
+                background-color: black;
+                position: absolute;
+                right: 60px;
+                color: #ffffff;
+                padding: 0 5px;
+                border-radius: 4px;
+                &:after {
+                    content: "";
+                    border-width: 8px;
+                    border-color: transparent;
+                    border-style: solid;
+                    border-top-color: black;
+                    border-right-color: black;
+                    position: absolute;
+                    right: -4px;
+                    transform: translateY(25%) rotate(45deg);
+                }
+            }
+            .messengerLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(61, 37, 192);
+                }
+
+                .messengerIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .email {
+            position: absolute;
+            bottom: 370%;
+            width: 45px;
+            height: 45px;
+            background-color: #0fb676;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 0.5s;
+            &:hover .message {
+                display: block;
+            }
+            .message {
+                display: none;
+                background-color: black;
+                position: absolute;
+                right: 60px;
+                color: #ffffff;
+                padding: 0 5px;
+                border-radius: 4px;
+                &:after {
+                    content: "";
+                    border-width: 8px;
+                    border-color: transparent;
+                    border-style: solid;
+                    border-top-color: black;
+                    border-right-color: black;
+                    position: absolute;
+                    right: -4px;
+                    transform: translateY(25%) rotate(45deg);
+                }
+            }
+            .emailLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(12, 119, 53);
+                }
+
+                .emailIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .phone {
+            position: absolute;
+            bottom: 455%;
+            width: 45px;
+            height: 45px;
+            background-color: #6b1b4a;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transition: bottom 0.5s;
+            &:hover .message {
+                display: block;
+            }
+            .message {
+                display: none;
+                background-color: black;
+                position: absolute;
+                right: 60px;
+                color: #ffffff;
+                padding: 0 5px;
+                border-radius: 4px;
+                &:after {
+                    content: "";
+                    border-width: 8px;
+                    border-color: transparent;
+                    border-style: solid;
+                    border-top-color: black;
+                    border-right-color: black;
+                    position: absolute;
+                    right: -4px;
+                    top: 50%;
+                    transform: translateY(-50%) rotate(45deg);
+                }
+            }
+            .phoneLink {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                &:hover {
+                    background-color: rgb(228, 27, 94);
+                }
+
+                .phoneIcon {
+                    width: 60%;
+                    height: 60%;
+                    border-radius: 50%;
+                    color: #f8fbff;
+                }
+            }
+        }
+        .telegram,
+        .viber,
+        .messenger,
+        .email,
+        .phone {
+            transition: bottom 0.2s;
+        }
+    }
+}

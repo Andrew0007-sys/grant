@@ -78,7 +78,7 @@ function Navbar(props) {
                                 to="signUp"
                                 duration={500}
                                 smooth={true}
-                                offset={-80}
+                                offset={80}
 
                             >{signIn}</Link></div>
                         <div className="item">
@@ -88,7 +88,7 @@ function Navbar(props) {
                                 to="courses"
                                 duration={500}
                                 smooth={true}
-                                offset={-80}
+                                offset={100}
 
                             >{courses}</Link></div>
 

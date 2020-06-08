@@ -1,0 +1,23 @@
+.ProgramCard {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .itemImage {
+        width: 100%;
+        height: 200px;
+        background: center center no-repeat;
+        background-size: contain;
+    }
+    .itemText {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Futura PT Bold";
+    }
+}

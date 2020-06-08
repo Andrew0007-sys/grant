@@ -7,9 +7,8 @@
         .partner {
             object-fit: contain;
             margin: 5px;
-            width: 250px;
-            height: 150px;
-            border: 1px solid red;
+            width: 220px;
+            height: 100px;
             background: center center no-repeat;
             background-size: contain;
             @media screen and (max-width: 768px) {
@@ -23,7 +22,7 @@
         }
     }
     .slick-dots {
-        bottom: -100px;
+        bottom: -50px;
         li {
             .changeBack {
                 border-radius: 50%;

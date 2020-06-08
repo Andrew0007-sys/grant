@@ -15,15 +15,21 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import BurgerButton from './components/Navbar/BurgerButton/BurgerButton';
 import HiddenMenu from './components/Navbar/HiddenMenu/HiddenMenu';
+import FixedSocials from './components/FixedSocials/FixedSocials';
 
 class App extends Component {
   state = {
     isMenuOpen: false,
     lang: true,
     isLangUaActive: true,
-    isLangEnActive: false
+    isLangEnActive: false,
+    isFixedSocialsOpen: false
   }
-
+  toggleFixedSocials = () => {
+    this.setState({
+      isFixedSocialsOpen: !this.state.isFixedSocialsOpen
+    })
+  }
   toggleMenu = () => {
     this.setState({
       isMenuOpen: !this.state.isMenuOpen
@@ -106,6 +112,10 @@ class App extends Component {
         />
         <Footer
           lang={this.state.lang}
+        />
+        <FixedSocials
+          isFixedSocialsOpen={this.state.isFixedSocialsOpen}
+          toggleFixedSocials={this.toggleFixedSocials}
         />
 
       </div>

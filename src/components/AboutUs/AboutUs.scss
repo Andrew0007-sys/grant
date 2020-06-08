@@ -15,6 +15,8 @@ $bgColor: #f8fbff;
             .title {
                 text-align: center;
                 margin: 50px 0;
+                font-family: "Futura PT Bold";
+                font-size: 48px;
             }
             .contentRight {
                 display: flex;
@@ -28,7 +30,7 @@ $bgColor: #f8fbff;
             .contentLeft {
                 min-height: 200px;
                 margin-bottom: 20px;
-                background: url("../../assets/images/illustrations/illustration2.svg") center center no-repeat;
+                background: url("../../assets/images/About/About_ITCA.svg") center center no-repeat;
                 background-size: 100% 100%;
             }
         }

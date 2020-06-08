@@ -24,16 +24,16 @@
     "courses": {
         "sectionTitle_1": "Study at the IT Cluster Academy online.",
         "sectionTitle_2": " View current courses and register for a free consultation!",
-        "start": "Start",
+        "start": "Start:",
         "soon": "Coming soon",
-        "project": "team project with PM",
+        "project": "Team project with PM",
         "mentor": "Mentor support",
         "test": "Knowledge testing",
         "button": "Read more"
     },
     "grantProgram": {
         "programTitle": "Our grant program",
-        "programText": "The world changed during the pandemic. All training went online. We know how difficult it is for the education sector to master the online learning format, so Ivano-Frankivsk IT Cluster and IT Cluster Academy have created mini-courses for teachers and educators to share experiences and help automate learning processes as quickly and easily as possible. It's time to discover new technologies!",
+        "programText": "The world changed during the pandemic. All training went online. We know how difficult    it is for the education sector to master the online learning format, so Ivano-Frankivsk IT Cluster and IT Cluster Academy have created mini-courses for teachers and educators to share experiences and help automate learning processes as quickly and easily as possible. It's time to discover new technologies!",
         "partisipationTitle": "Participation in the program",
         "partisipationText": "The grant program is designed for teachers and employees of educational institutions of Ukraine. The training lasts for 3 weeks and is absolutely free. Leave an application and we will confirm your participation within 2 working days.",
         "button": "sign up"

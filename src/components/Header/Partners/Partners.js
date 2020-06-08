@@ -67,12 +67,12 @@ function Partners() {
             <Slider {...settings}>
                 <div >
                     <div className="wrap">
-                        {partnersOne.map(partner => <img className='partner' src={partner} alt={partner} />)}
+                        {partnersOne.map(partner => <img key={partner} className='partner' src={partner} alt={partner} />)}
                     </div>
                 </div>
                 <div >
                     <div className="wrap">
-                        {partnersTwo.map(partner => <img className='partner' src={partner} alt={partner} />)}
+                        {partnersTwo.map(partner => <img key={partner} className='partner' src={partner} alt={partner} />)}
                     </div>
                 </div>
                 {/* <div>

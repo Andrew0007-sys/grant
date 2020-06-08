@@ -57,11 +57,21 @@ $bgColor: #f8fbff;
         font-size: 18px;
         color: #3d1659;
         margin-bottom: 20px;
+        .phone {
+            .phoneLink {
+                text-decoration: none;
+            }
+        }
     }
     .info {
         font-size: 18px;
         color: #3d1659;
         margin-bottom: 20px;
+        .phone {
+            .phoneLink {
+                text-decoration: none;
+            }
+        }
     }
     .bottomBar {
         background-color: #3d1659;

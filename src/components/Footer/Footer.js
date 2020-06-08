@@ -52,12 +52,16 @@ function Footer(props) {
                 <div className="row ">
                     <div className="infoOnline col-12 col-md-6 ">
                         <div className="title">IT Cluster Academy online</div>
-                        <div className="phone">{phone}: +38 (063) 674 12 19</div>
+                        <div className="phone">{phone}:
+                        <a href="tel:+380636741219" className="phoneLink" > +38 (063) 674 12 19</a>
+                        </div>
                         <div className="email">{email}: recruitacademyit@gmail.com</div>
                     </div>
                     <div className="info col-12 col-md-6">
                         <div className="title">IT Cluster Academy</div>
-                        <div className="phone">{phone}: +38 (098) 655 45 29</div>
+                        <div className="phone">{phone}:
+                        <a href="tel:+380986554529" className="phoneLink" > +38 (098) 655 45 29</a>
+                        </div>
                         <div className="email">{email}: itcaedu.online@gmail.com</div>
                     </div>
                 </div>

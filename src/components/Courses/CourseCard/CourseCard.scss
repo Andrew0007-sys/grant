@@ -1,0 +1,76 @@
+.CourseCard {
+    border-radius: 20px;
+    width: 300px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    background-color: #f8fbff;
+    .header {
+        width: 100%;
+        border: none;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .title {
+        font-size: 24px;
+        font-family: "Futura PT Bold";
+        margin: 20px 0 40px 10px;
+        border: 1px solid red;
+    }
+    .start {
+        margin: -30px 0 20px 10px;
+        font-size: 20px;
+    }
+    .text {
+        margin: 10px 0 10px 10px;
+        font-size: 18px;
+        .courseIcon {
+            margin-right: 10px;
+            color: red;
+        }
+    }
+    .price {
+        margin: 20px 0 20px 10px;
+        font-size: 20px;
+        font-family: "Futura PT Bold";
+        .courseIcon {
+            margin-right: 10px;
+            color: red;
+        }
+    }
+    .button {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        background-color: #3d1659;
+        box-sizing: border-box;
+        font-size: 18px;
+        &:hover {
+            background-color: #f14740;
+        }
+        &:hover .link {
+            color: #f8fbff;
+        }
+
+        .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f8fbff;
+            text-decoration: none;
+            width: 100%;
+            height: 60px;
+            border-radius: 8px;
+        }
+    }
+    .disabled {
+        background-color: black;
+        &:hover {
+            background-color: black;
+        }
+        &:hover .link {
+            color: #f8fbff;
+            cursor: no-drop;
+        }
+    }
+}

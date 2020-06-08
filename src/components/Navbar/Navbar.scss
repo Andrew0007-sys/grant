@@ -9,7 +9,7 @@
     background-color: #fff;
     display: flex;
     align-items: center;
-    @media screen and (max-width: 981px) {
+    @media screen and (max-width: 992px) {
         visibility: hidden;
     }
     .wrapper {
@@ -46,7 +46,9 @@
                     border-bottom: 2px solid transparent;
                     cursor: pointer;
                     &:hover {
-                        border-bottom: 2px solid #3d1659;
+                        // border-bottom: 2px solid #3d1659;
+                        color: rgba(204, 78, 128, 1);
+                        // text-shadow: 1px 1px 12px #3d1659;
                     }
                 }
                 .active {

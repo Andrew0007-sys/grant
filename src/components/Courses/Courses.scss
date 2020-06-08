@@ -2,97 +2,40 @@ $textColor: #3d1659;
 $bgColor: #f8fbff;
 
 .Courses {
-    // background: url(../../assets/images/courses/Bckg.svg) center center no-repeat;
-    background-size: 150% 150%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: url(../../assets/images/courses/Meteorits.svg) center center no-repeat,
+        url(../../assets/images/courses/stars.svg) center center repeat,
+        url(../../assets/images/courses/Yellow_planet.svg) 10% 40px no-repeat,
+        url(../../assets/images/courses/Violet_planet.svg) 100% 200px no-repeat,
+        url(../../assets/images/courses/Bckg.svg) center 2% no-repeat;
+    background-size: auto, auto, 50%, 70%, 3100px;
+    @media screen and (min-width: 768px) {
+        background: url(../../assets/images/courses/Meteorits.svg) center center no-repeat,
+            url(../../assets/images/courses/stars.svg) center center repeat,
+            url(../../assets/images/courses/Yellow_planet.svg) 10% top no-repeat,
+            url(../../assets/images/courses/Violet_planet.svg) 100% 20% no-repeat,
+            url(../../assets/images/courses/Bckg.svg) center top no-repeat;
+        background-size: auto, auto, auto, auto, 2000px;
+    }
     .wrapper {
         @media screen and (min-width: 768px) {
             padding-top: 20px;
         }
         .sectionTitle {
             text-align: center;
-            margin: 50px 0;
+            margin-bottom: 50px;
+            font-family: "Futura PT Bold";
+            font-size: 24px;
+            color: #f8fbff;
+            @media screen and (min-width: 768px) {
+                font-size: 36px;
+            }
         }
         .items {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            .item {
-                // border: 1px solid;
-                border-radius: 20px;
-                width: 300px;
-                margin-bottom: 40px;
-                box-sizing: border-box;
-                background-color: #f8fbff;
-                .react {
-                    width: 100%;
-                    border: none;
-                    border-top-right-radius: 20px;
-                    border-top-left-radius: 20px;
-                }
-                .title {
-                    font-size: 24px;
-                    font-family: "Futura PT Bold";
-                    margin: 20px 0 40px 10px;
-                }
-                .start {
-                    margin: 20px 0 30px 10px;
-                    font-size: 20px;
-                }
-                .text {
-                    margin: 10px 0 10px 10px;
-                    font-size: 18px;
-                    .courseIcon {
-                        margin-right: 10px;
-                        color: red;
-                    }
-                }
-                .price {
-                    margin: 40px 0 40px 10px;
-                    font-size: 20px;
-                    font-family: "Futura PT Bold";
-                    .courseIcon {
-                        margin-right: 10px;
-                        color: red;
-                    }
-                }
-                .button {
-                    display: flex;
-                    align-items: center;
-                    text-align: center;
-                    border-radius: 8px;
-                    background-color: $textColor;
-                    box-sizing: border-box;
-                    font-size: 18px;
-                    &:hover {
-                        background-color: $bgColor;
-                    }
-                    &:hover .link {
-                        color: $textColor;
-                    }
-
-                    .link {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        color: $bgColor;
-                        text-decoration: none;
-                        width: 100%;
-                        height: 60px;
-                        border-radius: 8px;
-                        border: 1px solid $textColor;
-                    }
-                }
-                .disabled {
-                    background-color: black;
-                    &:hover {
-                        background-color: black;
-                    }
-                    &:hover .link {
-                        color: $bgColor;
-                        cursor: no-drop;
-                    }
-                }
-            }
         }
     }
 }

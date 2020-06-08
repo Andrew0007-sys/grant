@@ -13,7 +13,7 @@ function Header(props) {
         <header id="header" className="Header">
             <div className="container">
                 <div className="wrapper row ">
-                    <div className="contentLeft col-12 col-md-5">
+                    <div className="contentLeft col-12 order-2 order-lg-1 col-lg-5">
                         <h1 className="title">{title}</h1>
                         <div className="text">{text}</div>
                         <div className="registrationButton ">
@@ -26,7 +26,7 @@ function Header(props) {
                             >{button}</Link>
                         </div>
                     </div>
-                    <div className="contentRight col-12 col-md-6">
+                    <div className="contentRight col-12 order-1 order-lg-2 col-lg-6">
                     </div>
                 </div>
                 <h2 className="partnersTitle">{partnersTitle}</h2>
