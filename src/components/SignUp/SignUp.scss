@@ -8,7 +8,7 @@
         margin-top: 50px;
     }
     .for-waves{
-        background-color: darkolivegreen;
+        background-color: white;
 //        max-height: 20vh;
     }
 
@@ -17,7 +17,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 2px solid yellow;
+//            border: 2px solid yellow;
             @media screen and (max-width: 768px){
 //                background: url("../../assets/images/plane.svg") center center no-repeat;
 //                background-size: contain;
@@ -27,8 +27,8 @@
                     display: none;
                     }    
                 .airplane {
-                    border: 2px solid blue;
-                    height: 60vh;
+//                    border: 2px solid blue;
+                    height: 61vh;
                     background: url("../../assets/images/plane.svg") center center no-repeat;
                     background-size:cover;
 
@@ -38,12 +38,12 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    border: 2px solid green;
+//                    border: 2px solid green;
                     .centered-icon{
                         width: 170px;
                         display: flex;
                         margin-left: 15px;
-                        border: 2px solid pink;
+//                        border: 2px solid pink;
                         justify-content: space-between;
                                         
                         .icon-edit{
@@ -155,7 +155,7 @@
                         .air-icon {
                             width: 100%;
                             display: flex;
-                            border: 2px solid black; 
+//                            border: 2px solid black; 
                             }
                             .centered-icon{
                                 width: 50%;
