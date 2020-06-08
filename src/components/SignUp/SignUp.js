@@ -121,9 +121,21 @@ function SignUp(props) {
                                     /> 
                                     
                                         <div className="centered-icon">
-                                            <div><a href=""><img className="icon-edit" src={facebook} /></a></div>
-                                            <div><a href=""><img className="icon-edit" src={instagram} /></a></div>
-                                            <div><a href=""><img className="icon-edit" src={linkedin} /></a></div>
+                                            <div><a href="https://m.facebook.com/itclusteracademy/"><FontAwesomeIcon
+                                    className="icon-edit"
+                                    icon={faFacebookF}
+
+                                /></a></div>
+                                            <div><a href="https://www.instagram.com/itcluster_academy/?igshid=pcmue6cyzyu2"><FontAwesomeIcon
+                                    className="icon-edit"
+                                    icon={faInstagram}
+
+                                /></a></div>
+                                            <div><a href="https://www.linkedin.com/company/it-cluster-academy"><FontAwesomeIcon
+                                    className="icon-edit"
+                                    icon={faLinkedinIn}
+
+                                /></a></div>
                                         </div>
                                     </div> 
 
